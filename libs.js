@@ -7,5 +7,5 @@ module.exports.absolute = number => {
 
 // Testing String
 module.exports.greet = name => {
-    return `Hello ${name}`;
+    return `Hello ${name}!`;
 }
