@@ -25,3 +25,12 @@ describe('greet', () => {
         expect(result).toContain('Ball');
     });
 });
+
+describe('getGenders', () => {
+    it('should return all genders', () => {
+        const result = libs.getGenders();
+        expect(result).not.toBeNull();
+        expect(result).toContain('Male');
+        expect(result).toEqual(expect.arrayContaining(['Male','Female','N/A']));
+    });
+});

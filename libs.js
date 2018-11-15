@@ -9,3 +9,8 @@ module.exports.absolute = number => {
 module.exports.greet = name => {
     return `Hello ${name}!`;
 }
+
+// Test Array
+module.exports.getGenders = () => {
+    return ['Male','Female','N/A'];
+}
