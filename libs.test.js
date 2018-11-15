@@ -22,5 +22,6 @@ describe('greet', () => {
         const name = 'Ball';
         const result = libs.greet(name);
         expect(result).toMatch(/Ball/);
+        expect(result).toContain('Ball');
     });
 });
