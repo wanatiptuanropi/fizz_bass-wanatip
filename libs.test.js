@@ -1,4 +1,4 @@
-const libs = require('libs')
+const libs = require('./libs')
 
 test('absolute - should return a positive number if input is positive', () => {
     // Arrange
@@ -6,7 +6,7 @@ test('absolute - should return a positive number if input is positive', () => {
     // Action
     const result = libs.absolute(input);
     // Assert
-    expect(result).toBe(input0);
+    expect(result).toBe(input);
 });
 
 test('absolute - should return a positive number if input is negative', () => {
